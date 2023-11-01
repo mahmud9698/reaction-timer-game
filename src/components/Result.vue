@@ -12,9 +12,9 @@
           }
       },
       mounted() {
-          if (this.score < 200) {
+          if (this.score <= 200) {
               this.rank = "You're Ninja!"
-          } else if (this.score < 400) {
+          } else if (this.score <= 400) {
               this.rank = "Almost Ninja!<br><br> Good Rapid reflexes!"
           } else {
               this.rank = "Similar to snail hehe ..."
